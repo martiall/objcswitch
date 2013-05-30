@@ -5,6 +5,5 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/n-b/objcswitch"
   s.author       = "Nicolas Bouilleaud"
   s.source       = { :git => "https://github.com/n-b/objcswitch.git" }
-
-  s.source_files = './*.h', 'NSObject+objcswitch.m'
+  s.source_files = '*.h', 'NSObject+objcswitch.m'
 end
